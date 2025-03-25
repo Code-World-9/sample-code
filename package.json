@@ -2,5 +2,5 @@
   "name": "samplecode-test",
   "version": "1.0.1",
   "files": ["template"], 
-  "keywords": ["vite", "template"] 
+  "keywords": ["vite", "template","zq-samplecode"] 
 }

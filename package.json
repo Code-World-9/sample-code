@@ -1,6 +1,7 @@
 {
   "name": "samplecode-test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "files": ["template"], 
-  "keywords": ["vite", "template","zq-samplecode"] 
+  "keywords": ["vite", "template"],
+  "description": "zq-samplecode"
 }

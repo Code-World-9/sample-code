@@ -2,8 +2,10 @@ import * as Events from '@produck/charon-events';
 import dataCenter from './DataCenter/index.js';
 import { offlineServer } from '../Service/index.js';
 import * as Feature from './Feature/index.js';
-
-const { qspace } = window;
+import qspace from 'zq-qspace'
+window.qspace = qspace
+// const qspace = require('zq-qspace')
+// const { qspace } = window;
 
 export class Space extends Events.Simple.Emitter {
 	constructor(vue) {

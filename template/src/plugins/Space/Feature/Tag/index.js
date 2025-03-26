@@ -1,4 +1,5 @@
-const { HotspotTag } = window;
+import HotspotTag from 'zq-hotspot-tag';
+// const { HotspotTag } = window;
 import dataCenter from '../../DataCenter/index.js';
 
 // 标签详情中，存储相机相关配置的字段
